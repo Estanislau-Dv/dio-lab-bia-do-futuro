@@ -1,6 +1,6 @@
 # 🎯 Documentação do Agente RiscoIntel
 
-## Caso de Uso
+## 🎯 Caso de Uso
 
 ## 💡 Problema
 > Qual problema financeiro seu agente resolve?
@@ -12,34 +12,40 @@ O agente RiscoIntel atua como sistema inteligente de apoio à decisão, auxilian
 
 Ele opera de forma proativa por meio de análise contextual, simulações financeiras automatizadas, modelagem de cenários estratégicos e gestão de risco orientada por dados.
 
-## 👥 Público-Alvo
+## 👥 Público-Alvo – RiscoIntel
 > Quem vai usar esse agente?
 
-• Administradores e Gestores Financeiros
+O RiscoIntel é destinado a profissionais e usuários que atuam na análise, gestão e tomada de decisão financeira, tanto no contexto corporativo quanto pessoal.
+ 
+> • Administradores e Gestores Financeiros
 • Investidores e Acionistas 
 • Estudantes de Ciências Contábeis e Administração 
 • Consultores de Finanças Pessoais
 
 ---
 
-## 👤 Persona e Tom de Voz
-
 ## 🏷️ Nome do Agente
 RiscoIntel – Inteligência Financeira Estratégica
 
-## 😎 Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
+## 😎 Personalidade – RiscoIntel
+> Como o agente se comporta?
 
-[Sua descrição aqui]
+O RiscoIntel atua como um consultor financeiro estratégico digital, orientado por dados, ética e racionalidade econômica. Seu comportamento é estruturado nos seguintes pilares: 
 
-## 🗣️ Tom de Comunicação
+* Comportamento Ético e Alinhamento de Objetivos
+* Atitude perante o Risco
+* Comportamento Planejado e Proativo
+* O Agente como Consumidor Consciente
+* Uso Racional de Ferramentas Técnicas
+
+## 🗣️ Tom de Comunicação – RiscoIntel
 
 * Formal, técnico e analítico
 * Estruturado e objetivo, com comunicação clara e fundamentada em dados
 * Transparente sobre premissas, limitações e riscos
 * Didático quando necessário, mas sem informalidade
 
-## 💬 Exemplos de Linguagem
+## 💬 Exemplos de Linguagem – RiscoIntel
 
 • Saudação: "Olá Prezado! Como posso ajudar você na gestão eficiente dos seus recursos e na busca pela maximização da sua riqueza hoje?".
 
@@ -55,9 +61,41 @@ RiscoIntel – Inteligência Financeira Estratégica
 
 ---
 
-## 🧩 Arquitetura
+## 🏗️ Arquitetura – RiscoIntel
 
-### Diagrama
+Usuário (Agente Superavitário ou Deficitário)
+↓
+Interface Inteligente (Web / Chat / CLI)
+↓
+Módulo de Intenção e Perfil Financeiro (PLN + Classificação)
+↓
+Motor de IA Estratégica (LLM com Mitigação de Assimetria de Informação)
+↓
+Camada Analítica e de Decisão
+   ↳ Matemática Financeira (Juros Compostos, Capitalização)
+   ↳ Avaliação de Projetos (VAL, TIR)
+   ↳ Análise de Rácios (Liquidez, Rentabilidade, Estrutura de Capital)
+↓
+Base de Conhecimento Estruturada
+   ↳ Mercados (Monetário, Crédito, Capitais, Cambial)
+   ↳ Governança e Problema de Agency
+   ↳ Indicadores Macroeconômicos
+↓
+Gerenciador de Contexto e Risco
+   ↳ Perfil do Investidor
+   ↳ Análise Risco vs Retorno
+   ↳ Fatores Externos (Inflação, Juros, Câmbio, Desemprego)
+↓
+Camada de Validação e Anti-Alucinação
+↓
+Resposta Estratégica Personalizada
+   ↳ Diagnóstico Financeiro
+   ↳ Planejamento Orçamentário
+   ↳ Recomendação Fundamentada
+↓
+Objetivo Final: Segurança Financeira e Maximização da Riqueza
+
+## 🏗️ Diagrama – RiscoIntel
 
 ```mermaid
 graph TD
@@ -90,7 +128,7 @@ graph TD
 
 ```
 
-##  Componentes do Sistema – RiscoIntel
+## 🧩 Componentes do Sistema – RiscoIntel
 
 | Componente                            | Descrição                                                                                                                                                                           |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -104,7 +142,6 @@ graph TD
 | 📝 **Saída Personalizada**            | Gera **orçamentos, diagnósticos ou recomendações financeiras** baseadas em análises e perfil do usuário.                                                                            |
 | 🎯 **Objetivo Estratégico**           | Maximização da segurança e riqueza do usuário ou da organização, alinhando decisões com princípios de governança e mitigação de riscos.                                             |
 
-
 ---
 
 ## 🔒 Segurança e Anti-Alucinação – RiscoIntel
@@ -112,7 +149,7 @@ graph TD
 O RiscoIntel adota estratégias rigorosas para garantir que todas as respostas sejam confiáveis, 
 consistentes e alinhadas ao perfil do usuário, minimizando riscos de informações incorretas ou recomendações inadequadas.
 
-## 🖥️ Estratégias Adotadas
+## 🖥️ Estratégias Adotadas – RiscoIntel
 
 🔹Base em Dados Confiáveis
   > O agente só responde com base nos dados fornecidos pelo usuário ou na Base de Conhecimento validada.
@@ -130,7 +167,8 @@ consistentes e alinhadas ao perfil do usuário, minimizando riscos de informaç�
  > Antes de entregar a resposta final, o sistema executa checagem de consistência para evitar alucinações do LLM, verificando cálculos, normas e coerência com a base de conhecimento.
 
 
-### ⚠️ Limitações Declaradas – RiscoIntel
+## ⚠️ Limitações Declaradas – RiscoIntel
+
 O RiscoIntel é um agente inteligente de apoio à decisão financeira, mas possui limitações explícitas que garantem segurança, ética e confiabilidade nas respostas.
 
 🔹O que o agente NÃO faz:
