@@ -10,7 +10,6 @@ A base de dados do agente é organizada para suportar planejamento financeiro, d
 | **`transacoes.csv`**            | Base para diagnóstico do **fluxo de caixa**, análise de padrões de consumo e organização orçamentária. Apoia a distinção rigorosa entre **necessidades e desejos**, prevenindo endividamento por impulso.                                                     |
 | **`historico_atendimento.csv`** | Registro de interações anteriores e decisões passadas. Utilizado para análise comportamental, correção de desvios financeiros e construção de planejamento orientado ao futuro com base no passado.                                                           |
 
-
 > [!TIP]
 > **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
 
