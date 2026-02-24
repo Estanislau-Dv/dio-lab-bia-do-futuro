@@ -34,40 +34,40 @@ O RiscoIntel foi projetado para integrar múltiplas fontes de dados financeiras 
 
 1️⃣ Arquivo de Dados
 
-• Os arquivos do usuário e do mercado (perfil_investidor.json, produtos_financeiros.json, indicadores_macroeconomicos.csv, transacoes.csv) são centralizados e normalizados para garantir consistência e qualidade.
+- Os arquivos do usuário e do mercado (perfil_investidor.json, produtos_financeiros.json, indicadores_macroeconomicos.csv, transacoes.csv) são centralizados e normalizados para garantir consistência e qualidade.
 
-• Cada dado é validado, permitindo que o agente trabalhe com informações confiáveis e prontas para análise.
+- Cada dado é validado, permitindo que o agente trabalhe com informações confiáveis e prontas para análise.
 
 2️⃣ Mapeamento e Alinhamento
 
 • Cada arquivo é associado a funções específicas do agente:
->• perfil_investidor.json → Personalização de recomendações.
-• produtos_financeiros.json → Sugestão de alocação de ativos.
-• indicadores_macroeconomicos.csv → Ajuste de estratégias conforme cenário econômico.
-• transacoes.csv → Avaliação de fluxo de caixa e saldo disponível.
+>- perfil_investidor.json → Personalização de recomendações.
+- produtos_financeiros.json → Sugestão de alocação de ativos.
+- indicadores_macroeconomicos.csv → Ajuste de estratégias conforme cenário econômico.
+- transacoes.csv → Avaliação de fluxo de caixa e saldo disponível.
 
-• Essa integração garante decisões coerentes e alinhadas aos objetivos do usuário.
+- Essa integração garante decisões coerentes e alinhadas aos objetivos do usuário.
 
 3️⃣ Pipeline de Carregamento
 
 > Como os dados são carregados:
-• Os arquivos JSON e CSV são carregados no início de cada sessão do agente.
-• Os dados são processados e transformados em objetos estruturados, que podem ser rapidamente consultados durante a execução do LLM.
-• Toda a informação relevante é incluída no contexto do prompt, permitindo que o agente tenha uma visão completa do usuário e do mercado para gerar respostas e recomendações precisas.
+- Os arquivos JSON e CSV são carregados no início de cada sessão do agente.
+- Os dados são processados e transformados em objetos estruturados, que podem ser rapidamente consultados durante a execução do LLM.
+- Toda a informação relevante é incluída no contexto do prompt, permitindo que o agente tenha uma visão completa do usuário e do mercado para gerar respostas e recomendações precisas.
 
 4️⃣ Contexto e Uso no Prompt
 
 • Após o carregamento e transformação, os dados são injetados no contexto do LLM, criando um panorama completo que inclui:
-> • Perfil do investidor e tolerância ao risco.
-• Produtos financeiros disponíveis com risco, liquidez e retorno estimado.
-• Indicadores macroeconômicos atuais.
-• Histórico de transações e saldo disponível.
+> - Perfil do investidor e tolerância ao risco.
+- Produtos financeiros disponíveis com risco, liquidez e retorno estimado.
+- Indicadores macroeconômicos atuais.
+- Histórico de transações e saldo disponível.
 
-• O agente utiliza esse contexto para:
+- O agente utiliza esse contexto para:
 
-> • Insights, simulações
-• recomendações financeiras inteligentes
-• Sugestões proativas de investimento.
+> - Insights, simulações
+- recomendações financeiras inteligentes
+- Sugestões proativas de investimento.
 
 ## 📝 Resumo Visual
 
@@ -141,13 +141,13 @@ O RiscoIntel foi projetado para integrar múltiplas fontes de dados financeiras 
 🧠 Como o agente utiliza este contexto
 
 1. Inclusão no Contexto do Prompt:
-> • Todos os dados são carregados no início da sessão, permitindo que o LLM tenha uma visão completa do usuário e do mercado.
+>- Todos os dados são carregados no início da sessão, permitindo que o LLM tenha uma visão completa do usuário e do mercado.
 
 2. Consultas Dinâmicas:
-> • Durante a interação, o agente acessa e filtra informações do contexto para gerar recomendações personalizadas.
-> • Ex.: “Com base no seu perfil moderado e saldo disponível, sugiro alocar 60% em renda fixa e 40% em ETFs de ações.”
+> - Durante a interação, o agente acessa e filtra informações do contexto para gerar recomendações personalizadas.
+> - Ex.: “Com base no seu perfil moderado e saldo disponível, sugiro alocar 60% em renda fixa e 40% em ETFs de ações.”
 
 2. Simulações e Alertas de Risco:
 
-> • Indicadores macroeconômicos ajudam o agente a avaliar impactos externos sobre a carteira.
-> • Histórico de transações permite analisar padrões de consumo e fluxo de caixa, sugerindo otimizações.
+> - Indicadores macroeconômicos ajudam o agente a avaliar impactos externos sobre a carteira.
+> - Histórico de transações permite analisar padrões de consumo e fluxo de caixa, sugerindo otimizações.
