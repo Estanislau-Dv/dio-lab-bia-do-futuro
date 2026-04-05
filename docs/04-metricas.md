@@ -4,7 +4,7 @@
 
 A avaliação pode ser feita de duas formas complementares:
 
-1. Testes Estruturados
+1. 🔍Testes Estruturados
 
 (Base: Planejamento e Orçamentação)
 
@@ -15,18 +15,73 @@ Este primeiro eixo funciona como um sistema de simulação controlada, semelhant
 Os testes estruturados consistem em perguntas, cenários ou problemas previamente definidos, onde já existe uma resposta esperada ou um padrão ideal de decisão.
 
 ⚙️ Como funciona
-Definição de metas → Assim como um orçamento prevê receitas e despesas, aqui definem-se respostas ideais.
-Execução do teste → O agente responde com base na sua lógica e modelos.
-Comparação (Esperado vs. Real) → Avalia-se a diferença entre:
-Resultado esperado (referência)
-Resultado obtido (resposta do agente)
+• Definição de metas → Assim como um orçamento prevê receitas e despesas, aqui definem-se respostas ideais.
+• Execução do teste → O agente responde com base na sua lógica e modelos.
+• Comparação (Esperado vs. Real) → Avalia-se a diferença entre:
+• Resultado esperado (referência)
+• Resultado obtido (resposta do agente)
 🎯 Objetivo
-Identificar falhas de raciocínio
-Detectar estimativas irreais
-Ajustar modelos de decisão
+• Identificar falhas de raciocínio
+• Detectar estimativas irreais
+• Ajustar modelos de decisão
 
 👉 Em resumo: é um sistema de avaliação por previsão e controlo, tal como na gestão financeira.
 
+📊 2. Feedback Real
+
+(Base: Análise de Desempenho e Indicadores)
+
+Aqui o foco deixa de ser simulação e passa a ser o desempenho no mundo real.
+
+📌 Definição
+
+O feedback real é a avaliação baseada em resultados concretos, opiniões externas e indicadores de performance.
+
+⚙️ Como funciona
+•  Atribuição de notas ou scores → Funcionam como indicadores (KPIs)
+• Avaliação por terceiros → Utilizadores, especialistas ou mercado
+• Comparação com objetivos → Mede se o agente cumpre o propósito esperado
+
+📈 Indicadores típicos
+
+• Taxa de acerto
+• Qualidade das decisões
+• Eficiência na resolução de problemas
+• Impacto das recomendações
+
+🎯 Objetivo
+• Validar a utilidade prática do agente
+• Medir o valor gerado
+• Ajustar comportamento com base em resultados reais
+
+👉 Em resumo: é uma avaliação baseada em performance real e validação externa.
+
+⚠️ 3. Mensuração de Riscos
+
+(Base: Variabilidade e Incerteza)
+
+Este terceiro eixo avalia algo mais profundo: o risco por trás das decisões.
+
+📌 Definição
+
+Consiste em medir o quanto os resultados do agente podem variar em relação ao esperado.
+
+⚙️ Como funciona
+• Análise de dispersão → Mede a consistência das decisões
+• Margem de erro → Verifica se os resultados estão dentro do aceitável
+• Risco vs. retorno → Avalia se o agente assume riscos justificáveis
+
+📉 Conceitos usados
+• Desvio padrão → nível de incerteza
+• Coeficiente de variação → relação risco/resultado
+• Consistência → estabilidade das respostas
+
+🎯 Objetivo
+• Garantir previsibilidade
+• Evitar decisões arriscadas demais
+• Equilibrar desempenho e segurança
+
+👉 Em resumo: é uma avaliação da estabilidade e do risco das decisões.
 ---
 
 ## 📈 Métricas de Qualidade
