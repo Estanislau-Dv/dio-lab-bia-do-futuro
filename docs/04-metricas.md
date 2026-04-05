@@ -1,15 +1,35 @@
-# Avaliação e Métricas
+# 📊 Avaliação e Métricas
 
-## Como Avaliar seu Agente
+## 🔍Como Avaliar seu Agente
 
 A avaliação pode ser feita de duas formas complementares:
 
-1. **Testes estruturados:** Você define perguntas e respostas esperadas;
-2. **Feedback real:** Pessoas testam o agente e dão notas.
+1. Testes Estruturados
+
+(Base: Planejamento e Orçamentação)
+
+Este primeiro eixo funciona como um sistema de simulação controlada, semelhante a um orçamento financeiro.
+
+📌 Definição
+
+Os testes estruturados consistem em perguntas, cenários ou problemas previamente definidos, onde já existe uma resposta esperada ou um padrão ideal de decisão.
+
+⚙️ Como funciona
+Definição de metas → Assim como um orçamento prevê receitas e despesas, aqui definem-se respostas ideais.
+Execução do teste → O agente responde com base na sua lógica e modelos.
+Comparação (Esperado vs. Real) → Avalia-se a diferença entre:
+Resultado esperado (referência)
+Resultado obtido (resposta do agente)
+🎯 Objetivo
+Identificar falhas de raciocínio
+Detectar estimativas irreais
+Ajustar modelos de decisão
+
+👉 Em resumo: é um sistema de avaliação por previsão e controlo, tal como na gestão financeira.
 
 ---
 
-## Métricas de Qualidade
+## 📈 Métricas de Qualidade
 
 | Métrica | O que avalia | Exemplo de teste |
 |---------|--------------|------------------|
@@ -22,7 +42,7 @@ A avaliação pode ser feita de duas formas complementares:
 
 ---
 
-## Exemplos de Cenários de Teste
+## 🧩 Exemplos de Cenários de Teste
 
 Crie testes simples para validar seu agente:
 
@@ -48,7 +68,7 @@ Crie testes simples para validar seu agente:
 
 ---
 
-## Resultados
+## 📦 Resultados
 
 Após os testes, registre suas conclusões:
 
@@ -60,7 +80,7 @@ Após os testes, registre suas conclusões:
 
 ---
 
-## Métricas Avançadas (Opcional)
+## 🚀 Métricas Avançadas (Opcional)
 
 Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
 
